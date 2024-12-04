@@ -1,0 +1,80 @@
+body{
+  background-color: white;
+  color: black
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 24px;
+}
+.header{
+  display: flex;
+}
+.notes-h{
+  font-size: 28px;
+}
+.update{
+  display: block;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-image: url("./assets/refreshing.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.note-container{
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.note{
+  height: 400px;
+  border: solid 2px black;
+}
+.delete{
+  width: 32px;
+  height: 32px;
+  align-self: end;
+  margin-right: -16px;
+  margin-bottom: -16px;
+}
+.note-add{
+  box-sizing: border-box;
+  width: 600px;
+  display: flex;
+  align-items: flex-end;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+.note-text{
+  box-sizing: border-box;
+  min-width: 600px;
+  max-width: 600px;
+  max-height: 300px;
+  min-height: 300px;
+  border: solid 2px black;
+  background-color: white;
+  color: black;
+  border-radius: 5%;
+  font-size: 24px;
+}
+.submit{
+  display: block;
+  box-sizing: border-box;
+  width:64px;
+  height: 64px;
+  padding: 0;
+  background-image: url("./assets/enter.svg");
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: solid 2px black;
+  border-radius: 50%;
+  margin-left: -74px;
+  margin-bottom: 10px;
+}
